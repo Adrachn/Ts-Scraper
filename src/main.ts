@@ -1,10 +1,9 @@
+// run with npx ts-node src/main.ts
 
-function sayMyName(name: string) {
-    if (name === "Heisenberg") {
-        console.log("You're right 👍");
-    }
-    else {
-        console.log("You're wrong 👎");
-    }
-}
-sayMyName("Heisenberg");
+import {GetScraping as ScrapeWebScraperIO} from "./webscraperio";
+import {GetScraping as ScrapePremierLeague} from "./premierleague";
+
+
+//ScrapeWebScraperIO();
+ScrapePremierLeague();
+
